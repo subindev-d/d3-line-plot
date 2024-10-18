@@ -35,7 +35,7 @@
 
     <script>
         // Load the CSV file
-        d3.csv("/data/example.csv").then(data => {
+        d3.csv("data/example.csv").then(data => {
             if (data.length > 0) {
                 const columnHeaders = Object.keys(data[0]);
 
